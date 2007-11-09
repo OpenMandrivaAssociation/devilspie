@@ -1,6 +1,6 @@
 Summary: A window matching tool
 Name: devilspie
-Version: 0.20.2
+Version: 0.21
 Release: %mkrel 1
 License: GPL
 Group: Graphical desktop/GNOME
@@ -17,7 +17,7 @@ A window-matching utility, inspired by Sawfish's "Matched Windows" option and
 the lack of the functionality in Metacity. Metacity lacking window matching is
 not a bad thing -- Metacity is a lean window manager, and window matching does
 not have to be a window manager task.
- 
+
 Devil's Pie can be configured to detect windows as they are created, and match
 the window to a set of rules. If the window matches the rules, it can perform a
 series of actions on that window. For example, I make all windows created by
