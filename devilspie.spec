@@ -1,11 +1,11 @@
 Summary: A window matching tool
 Name: devilspie
-Version: 0.21
+Version: 0.22
 Release: %mkrel 1
 License: GPL
 Group: Graphical desktop/GNOME
 URL: http://www.burtonini.com/
-Source0: http://www.burtonini.com/computing/%{name}-%{version}.tar.bz2
+Source0: http://www.burtonini.com/computing/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libwnck-devel
 BuildRequires: libpopt-devel
