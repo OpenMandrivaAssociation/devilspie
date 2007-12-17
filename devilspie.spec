@@ -6,7 +6,6 @@ License: GPL
 Group: Graphical desktop/GNOME
 URL: http://www.burtonini.com/
 Source0: http://www.burtonini.com/computing/%{name}-%{version}.tar.gz
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libwnck-devel
 BuildRequires: libpopt-devel
 BuildRequires: glib2-devel >= 2.10
