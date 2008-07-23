@@ -1,7 +1,7 @@
 Summary: A window matching tool
 Name: devilspie
 Version: 0.22
-Release: %mkrel 1
+Release: %mkrel 3
 License: GPL
 Group: Graphical desktop/GNOME
 URL: http://www.burtonini.com/
