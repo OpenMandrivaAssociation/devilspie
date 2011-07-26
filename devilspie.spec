@@ -1,11 +1,12 @@
 Summary: A window matching tool
 Name: devilspie
 Version: 0.22
-Release: %mkrel 3
-License: GPL
+Release: %mkrel 4
+License: GPLv2+ and LGPLv2
 Group: Graphical desktop/GNOME
 URL: http://www.burtonini.com/
 Source0: http://www.burtonini.com/computing/%{name}-%{version}.tar.gz
+Patch0: devilspie-0.22-deprecated-gtk.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libwnck-devel
 BuildRequires: libpopt-devel
@@ -26,6 +27,8 @@ in the pager or task list.
 
 %prep
 %setup -q
+%apply_patches
+autoreconf
 cat > README.upgrade.urpmi <<EOF
 Starting in 0.13-1mdk the configuration format has changed. Please read the
 documentation about how to create the new rules.
