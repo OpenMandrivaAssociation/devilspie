@@ -11,7 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libwnck-devel
 BuildRequires: libpopt-devel
 BuildRequires: glib2-devel >= 2.10
-BuildRequires: perl-XML-Parser
+BuildRequires: intltool
 
 %description
 A window-matching utility, inspired by Sawfish's "Matched Windows" option and
