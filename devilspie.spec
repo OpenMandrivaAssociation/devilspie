@@ -12,6 +12,7 @@ BuildRequires: libwnck-devel
 BuildRequires: libpopt-devel
 BuildRequires: glib2-devel >= 2.10
 BuildRequires: intltool
+BuildRequires: gnome-common
 
 %description
 A window-matching utility, inspired by Sawfish's "Matched Windows" option and
