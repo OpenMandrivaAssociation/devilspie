@@ -4,7 +4,7 @@ Version:	0.23
 Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
-Url:		http://www.burtonini.com/
+Url:		https://www.burtonini.com/
 Source0:	http://www.burtonini.com/computing/%{name}-%{version}.tar.xz
 # Debian patchset
 Patch0:		fix_manpage_lintian_warnings.patch
