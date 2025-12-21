@@ -11,6 +11,11 @@ Patch0:		fix_manpage_lintian_warnings.patch
 Patch1:		fix_memleak_in_my_wnck_get_viewport_start.patch
 Patch2:		fix_using_deprecated_wnck_functions.patch
 Patch3:		remove_unavailable_options_from_manpage.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gdk-3.0)
 BuildRequires:	pkgconfig(glib-2.0)
